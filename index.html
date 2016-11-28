@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <svg id="game-board" width="80%" viewBox="0 0 300 300">
+      <!-- Create all the shapes for your game board here! -->
+<rect width="90" height="90" x="0" y="0" onclick = "square1()"/>
+<rect width="90" height="90" x="100" y="0" onclick = "square2()"/>
+<rect width="90" height="90" x="200" y="0" onclick = "square3()"/>
+<rect width="90" height="90" x="0" y="100" onclick = "square4()"/>
+<rect width="90" height="90" x="100" y="100" onclick = "square5()"/>
+<rect width="90" height="90" x="200" y="100" onclick = "square6()"/>
+<rect width="90" height="90" x="0" y="200" onclick = "square7()"/>
+<rect width="90" height="90" x="100" y="200" onclick = "square8()"/>
+<rect width="90" height="90" x="200" y="200" onclick = "square9()"/>
+    </svg>
+<button id="ok" onClick="done()">You're finished</button>
+    <!-- This line of code points to your JavaScript file. No need to touch it. -->
+    <script src="tic-tac-toe.js"></script>
+  </body>
+</html>
